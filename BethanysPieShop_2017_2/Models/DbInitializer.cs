@@ -5,13 +5,14 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace BethanysPieShop_2017_2.Models
+namespace BethanysPieShop.Models
 {
     public static class DbInitializer
     {
-        public static void Seed(IApplicationBuilder applicationBuilder)
+        public static void Seed(AppDbContext context)
         {
-            AppDbContext context = applicationBuilder.ApplicationServices.GetRequiredService<AppDbContext>();
+            //AppDbContext context = applicationBuilder.ApplicationServices.GetRequiredService<AppDbContext>();
+            //AppDbContext context = (AppDbContext)applicationBuilder.ApplicationServices.GetRequiredService(typeof(IApplicationBuilder));
 
             if (!context.Categories.Any())
             {

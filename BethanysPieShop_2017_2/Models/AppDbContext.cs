@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 
-namespace BethanysPieShop_2017_2.Models
+namespace BethanysPieShop.Models
 {
     public class AppDbContext : DbContext
     {

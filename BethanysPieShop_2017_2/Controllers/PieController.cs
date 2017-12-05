@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using BethanysPieShop_2017_2.Models;
-using BethanysPieShop_2017_2.ViewModels;
+using BethanysPieShop.Models;
+using BethanysPieShop.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BethanysPieShop_2017_2.Controllers
+namespace BethanysPieShop.Controllers
 {
     public class PieController : Controller
     {

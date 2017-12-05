@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace BethanysPieShop_2017_2.Models
+namespace BethanysPieShop.Models
 {
     public interface IPieRepository
     {

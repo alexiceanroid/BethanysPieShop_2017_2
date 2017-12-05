@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 using System;
 using System.Collections.Generic;
 
-namespace BethanysPieShop_2017_2.Migrations
+namespace BethanysPieShop.Migrations
 {
     public partial class Initial : Migration
     {
