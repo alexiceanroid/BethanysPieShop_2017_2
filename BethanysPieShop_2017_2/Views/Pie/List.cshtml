@@ -1,11 +1,9 @@
 ﻿@model BethanysPieShop.ViewModels.PiesListViewModel
 
-@foreach (var c in Model.Categories)
-{
-    <h1>@c.CategoryName</h1>
-    foreach (var pie in Model.Pies.Where(pie => pie.CategoryId == c.CategoryId))
+
+    <h1>@Model.CurrentCategory</h1>
+    @foreach (var pie in Model.Pies)
      {
         @*here go comments*@
          @Html.Partial("PieOverviewSummary", pie)
      }
-}
